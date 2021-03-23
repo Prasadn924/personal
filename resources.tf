@@ -1,7 +1,7 @@
 # Define SSH key pair for our instances
 resource "aws_key_pair" "default" {
   key_name = "mumbai"
-  public_key = "${file("${var.key_path}")}"
+  public_key = "${file("{var.key_path}")}"
 }
 
 # Define webserver inside the public subnet
