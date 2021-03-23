@@ -25,5 +25,5 @@ variable "ami" {
 
 variable "key_path" {
   description = "SSH Public Key path"
-  default = "C:\Users\pnallakukkal\OneDrive - DXC Production\Documents\Key pair"
+  default = "/home/ubuntu/key"
 }
