@@ -20,7 +20,7 @@ variable "private_subnet_cidr" {
 
 variable "ami" {
   description = "Ubuntu AMI"
-  default = "ami-01e7ca2ef94a0ae86"
+  default = "ami-0557a15b87f6559cf"
 }
 
 variable "key_path" {
