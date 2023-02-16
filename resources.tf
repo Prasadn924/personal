@@ -1,6 +1,6 @@
 # Define SSH key pair for our instances
 resource "aws_key_pair" "default" {
-  key_name = "mumbai"
+  key_name = "Jenkin"
   public_key = "{var.key_path}"
 }
 
