@@ -1,8 +1,6 @@
 variable "aws_region" {
   description = "Region for the VPC"
   default = "us-east-1"
-  access_key = "AKIAR2L4SXEONQQ5MV4E"
-  secret_key = "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"
 }
 
 variable "vpc_cidr" {
